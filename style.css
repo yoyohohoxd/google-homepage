@@ -6,6 +6,8 @@ body {
     color: black;
 
     text-align: center;
+
+    margin: 8px;
 }
 
 ul {
@@ -18,7 +20,7 @@ li {
     padding-left: 10px;    
 }
 
-a {
+.navbar a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
     color: black;
@@ -26,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: underline;
     opacity: 0.8;
 }
@@ -36,16 +38,43 @@ form {
 }
 
 #searchbar {
-    height: 40px;
-    width: 400px;
+    height: 46px;
+    width: 582px;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 24px;
+    border: 1px solid #def1ef;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#searchbar:hover {
+    border-color: rgba(223,225,229,0);
 }
 
 .button {
     height: 35px;
     margin: 10px 10px 20px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+div a {
+    text-decoration: none;
+    color: blue;
+}
+
+div a:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -71,17 +100,19 @@ footer {
 
 #footer {
     text-align: left;
+    color: black;
     background-color: lightgrey;
     opacity: 0.8;
     border-top: gray solid;
     border-top-width: 1px;
 }
 
+#footer a {
+    color:black;
+    opacity: 0.8;
+}
+
 span {
     float: right;
     padding-right: 8px;
-}
-
-a:hover #footer {
-    opacity: 1;
 }
