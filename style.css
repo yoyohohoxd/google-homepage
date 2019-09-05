@@ -105,36 +105,32 @@ img {
     opacity: 1;
 }
 
-#country {
-    background-color: lightgray;
-    color: black;
-    text-align: left;
-    font-size: 14px;
-    opacity: 0.8;
-    padding: 8px;
-}
-
-footer {
-    position: fixed;
+.footer {
+    position: absolute;
     bottom: 0px;
-    width: 100%;
-}
-
-#footer {
+    right: 0px;
+    left: 0px;
     text-align: left;
-    color: black;
-    background-color: lightgrey;
-    opacity: 0.8;
-    border-top: gray solid;
-    border-top-width: 1px;
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    padding-left: 24px;
 }
 
-#footer a {
-    color:black;
-    opacity: 0.8;
+.country {
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
 }
 
-span {
+.footerbar a {
+    color: rgba(0,0,0,.54);
+    padding-right: 10px;
+}
+
+.right {
     float: right;
-    padding-right: 8px;
+    padding-right: 30px;
 }
